@@ -1,0 +1,8 @@
+*.pro.user
+debian
+*armel*
+*.o
+moc
+*.qm
+rcc
+Makefile
