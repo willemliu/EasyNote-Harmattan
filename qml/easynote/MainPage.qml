@@ -245,7 +245,7 @@ Page {
                 itemIndex: model.itemIndex
                 itemText: model.itemText
                 itemSelected: model.itemSelected
-                height: 60
+                height: Math.max (60, text.implicitHeight + 10)
                 width: listView.width
 
                 Rectangle {
@@ -263,7 +263,8 @@ Page {
                     }
 
                     MouseArea {
-                        anchors.fill: parent
+                        height: parent.height
+                        width: listView.width
                         onPressAndHold: {
                             mainPage.index = listItem.itemIndex;
                             contextMenu.open();
@@ -285,10 +286,11 @@ Page {
                         Text {
                             id: text
                             anchors.verticalCenter: parent.verticalCenter
-                            anchors.left: parent.left
+                            width: listView.width
                             anchors.leftMargin: 10
-                            font.pixelSize: 26
+                            font.pixelSize: 22
                             text: itemText
+                            wrapMode: Text.Wrap
                             onLinkActivated: {
                                 Qt.openUrlExternally(link);
                             }

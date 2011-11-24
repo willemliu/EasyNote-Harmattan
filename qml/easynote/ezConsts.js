@@ -31,7 +31,7 @@ var THEME_NAMES = ["default",
 // List of values for each theme. Associative index must exist
 // in the THEME_NAMES array in order to make it available for use.
 var BACKGROUND_COLORS = new Array();
-BACKGROUND_COLORS['default'] = "transparent";
+BACKGROUND_COLORS['default'] = "#fdfcba";
 BACKGROUND_COLORS['dark'] = "#666666";
 BACKGROUND_COLORS['pink'] = "#FFBAD2";
 BACKGROUND_COLORS['blue'] = "#B4D8E7";
@@ -67,7 +67,7 @@ TEXT_COLORS['pink'] = "#5C604D";
 TEXT_COLORS['blue'] = "#5C604D";
 
 var DIVISION_LINE_COLORS = new Array();
-DIVISION_LINE_COLORS['default'] = "#cccccc";
+DIVISION_LINE_COLORS['default'] = "#91c0ff";
 DIVISION_LINE_COLORS['dark'] = "#cccccc";
 DIVISION_LINE_COLORS['pink'] = "#FFE9E8";
 DIVISION_LINE_COLORS['blue'] = "#ffffff";
@@ -79,13 +79,13 @@ DIVISION_LINE_TEXT_COLORS['pink'] = "#FFE9E8";
 DIVISION_LINE_TEXT_COLORS['blue'] = "#ffffff";
 
 var HEADER_BACKGROUND_COLORS = new Array();
-HEADER_BACKGROUND_COLORS['default'] = "#333333";
+HEADER_BACKGROUND_COLORS['default'] = "#ffe178";
 HEADER_BACKGROUND_COLORS['dark'] = "#333333";
 HEADER_BACKGROUND_COLORS['pink'] = "#E47297";
 HEADER_BACKGROUND_COLORS['blue'] = "#56BAEC";
 
 var HEADER_TEXT_COLORS = new Array();
-HEADER_TEXT_COLORS['default'] = "#ffffff";
+HEADER_TEXT_COLORS['default'] = "#000000";
 HEADER_TEXT_COLORS['dark'] = "#ffffff";
 HEADER_TEXT_COLORS['pink'] = "#E5E7E1";
 HEADER_TEXT_COLORS['blue'] = "#ffffff";

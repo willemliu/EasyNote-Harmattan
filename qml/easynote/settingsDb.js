@@ -129,6 +129,7 @@ function getOrderBy(query)
         }
         orderBy += SORT_PID;
     }
+    orderBy = SORT_PID;
     if(doOrder)
     {
         orderBy = " ORDER BY " + orderBy;
