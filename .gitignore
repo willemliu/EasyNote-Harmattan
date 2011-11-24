@@ -6,3 +6,5 @@ moc
 *.qm
 rcc
 Makefile
+build-stamp
+configure-stamp

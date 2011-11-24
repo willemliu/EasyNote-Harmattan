@@ -112,52 +112,7 @@ Page {
                     anchors.horizontalCenter: text5.horizontalCenter
                     font.family: "Helvetica"
                     font.pointSize: 24
-                    text: "Oytun Eren Şengül"
-                    color: textColor
-                }
-                Text {
-                    id: text7
-                    anchors.top: text6.bottom
-                    anchors.horizontalCenter: text6.horizontalCenter
-                    font.family: "Helvetica"
-                    font.pointSize: 24
                     text: "Stanislav"
-                    color: textColor
-                }
-                Text {
-                    id: text8
-                    anchors.top: text7.bottom
-                    anchors.horizontalCenter: text7.horizontalCenter
-                    font.family: "Helvetica"
-                    font.pointSize: 24
-                    text: "Romu"
-                    color: textColor
-                }
-                Text {
-                    id: text9
-                    anchors.top: text8.bottom
-                    anchors.horizontalCenter: text8.horizontalCenter
-                    font.family: "Helvetica"
-                    font.pointSize: 24
-                    text: "Stephan Beyerle"
-                    color: textColor
-                }
-                Text {
-                    id: text10
-                    anchors.top: text9.bottom
-                    anchors.horizontalCenter: text9.horizontalCenter
-                    font.family: "Helvetica"
-                    font.pointSize: 24
-                    text: "Giovanni Grammatico"
-                    color: textColor
-                }
-                Text {
-                    id: text11
-                    anchors.top: text10.bottom
-                    anchors.horizontalCenter: text10.horizontalCenter
-                    font.family: "Helvetica"
-                    font.pointSize: 24
-                    text: "Arto Jalkanen"
                     color: textColor
                 }
             }

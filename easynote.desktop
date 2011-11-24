@@ -3,8 +3,8 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Name=easynote
-Exec=/opt/easynote/bin/easynote
+Name=EasyNote
+Exec=/usr/bin/invoker --type=d --splash=/opt/easynote/qml/easynote/splash-p.jpg --splash-landscape=/opt/easynote/qml/easynote/splash.jpg -s /opt/easynote/bin/easynote
 Icon=easynote64
 X-Window-Icon=
 X-HildonDesk-ShowInToolbar=true
