@@ -283,7 +283,7 @@ Page {
                         onReleased: {
                             listItem.backgroundColor = DbConnection.getValue("LIST_ITEM_BACKGROUND_COLOR");
                         }
-                        Text {
+                        Label {
                             id: text
                             anchors.verticalCenter: parent.verticalCenter
                             width: listView.width
