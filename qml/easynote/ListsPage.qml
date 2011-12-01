@@ -101,7 +101,6 @@ Page {
         Component {
             id: highlight
             Rectangle {
-                z: 1
                 width: listView.width;
                 height: 60
                 color: highlightColor;

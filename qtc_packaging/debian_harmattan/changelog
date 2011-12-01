@@ -1,5 +1,6 @@
 easynote (0.0.2) unstable; urgency=low
   * Changed Text object to Label.
+  * Fixed bug which was caused by adding an item when there are no lists. Going to the lists page would not correctly paint the list name.
 
  -- Willem Liu <willem.liu@gmail.com>  vr, 25 nov 2011 23:40:53 +0100
 
