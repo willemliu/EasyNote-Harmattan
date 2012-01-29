@@ -1,3 +1,10 @@
+easynote (0.0.3) unstable; urgency=low
+  * Added multiple online note synchronisation.
+  * Added dutch language.
+  * Added terminal theme. Dark theme for power saving.
+
+ -- Willem Liu <willem.liu@gmail.com>  zo, 29 jan 2012 22:38:49 +0100
+
 easynote (0.0.2) unstable; urgency=low
   * Changed Text object to Label.
   * Fixed bug which was caused by adding an item when there are no lists. Going to the lists page would not correctly paint the list name.

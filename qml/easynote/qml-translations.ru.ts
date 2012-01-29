@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>EasyList - About</source>
-        <translation>EasyList - О программе</translation>
+        <translation type="obsolete">EasyList - О программе</translation>
     </message>
     <message>
         <source>Created with Qt</source>
@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>Do you really want to remove all tables used by EasyList?</source>
-        <translation>Вы действительно хотите удалить данные используемые EasyList?</translation>
+        <translation type="obsolete">Вы действительно хотите удалить данные используемые EasyList?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -34,6 +34,14 @@
     <message>
         <source>Cancel</source>
         <translation>Отмена</translation>
+    </message>
+    <message>
+        <source>EasyNote - About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to remove all tables used by EasyNote?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -57,18 +65,25 @@ a new item.
 
 Tip: You can copy text from other apps
 and paste it here as well.</source>
-        <translation>Для создания списка вставьте текст. 
+        <translation type="obsolete">Для создания списка вставьте текст. 
 Разделители-конец строки или запятая.
 
 Совет: Скопируйте текст из других 
 приложений и вставьте здесь.</translation>
+    </message>
+    <message>
+        <source>Enter text to create your note.
+
+Tip: You can copy text from other apps
+and paste it here as well.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ListsPage</name>
     <message>
         <source>EasyList - Lists</source>
-        <translation>EasyList - Списки</translation>
+        <translation type="obsolete">EasyList - Списки</translation>
     </message>
     <message>
         <source>Rename</source>
@@ -96,11 +111,11 @@ and paste it here as well.</source>
     </message>
     <message>
         <source>New list name:</source>
-        <translation>Новый список:</translation>
+        <translation type="obsolete">Новый список:</translation>
     </message>
     <message>
         <source>Remove list?</source>
-        <translation>Удалить список?</translation>
+        <translation type="obsolete">Удалить список?</translation>
     </message>
     <message>
         <source>Do you really want to remove [</source>
@@ -108,22 +123,38 @@ and paste it here as well.</source>
     </message>
     <message>
         <source>] and all its items?</source>
-        <translation>], включая его содержимое?</translation>
+        <translation type="obsolete">], включая его содержимое?</translation>
     </message>
     <message>
         <source>Ok</source>
         <translation>ОК</translation>
+    </message>
+    <message>
+        <source>EasyNote - Notes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New note name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove note?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>]?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Deselect all</source>
-        <translation>Сбросить отметки</translation>
+        <translation type="obsolete">Сбросить отметки</translation>
     </message>
     <message>
         <source>Remove checked</source>
-        <translation>Удалить отмеченные</translation>
+        <translation type="obsolete">Удалить отмеченные</translation>
     </message>
     <message>
         <source>Synchronise</source>
@@ -139,11 +170,11 @@ and paste it here as well.</source>
     </message>
     <message>
         <source>Remove checked items?</source>
-        <translation>Удалить отмеченные?</translation>
+        <translation type="obsolete">Удалить отмеченные?</translation>
     </message>
     <message>
         <source>Do you really want to remove all checked items?</source>
-        <translation>Вы действительно хотите удалить все отмеченные строчки?</translation>
+        <translation type="obsolete">Вы действительно хотите удалить все отмеченные строчки?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -155,13 +186,13 @@ and paste it here as well.</source>
     </message>
     <message>
         <source>Sync with online list?</source>
-        <translation>Обновление списка?</translation>
+        <translation type="obsolete">Обновление списка?</translation>
     </message>
     <message>
         <source>Do you really want sync your current list with the online list?
 
 All your current items will be overwritten.</source>
-        <translation>Вы действительно хотите обновить список с сервера?
+        <translation type="obsolete">Вы действительно хотите обновить список с сервера?
 
 Все текущие строчки списка будут потеряны.</translation>
     </message>
@@ -171,18 +202,32 @@ All your current items will be overwritten.</source>
     </message>
     <message>
         <source>Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation>Не удалось обновить с сервера. Удостоверьтесь, что в настройках правильно указаны параметры учетной записи.</translation>
+        <translation type="obsolete">Не удалось обновить с сервера. Удостоверьтесь, что в настройках правильно указаны параметры учетной записи.</translation>
     </message>
     <message>
         <source>Remove</source>
         <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>Sync with online note?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want sync your current note with the online note?
+
+Your current note will be overwritten.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>EasyList - Settings</source>
-        <translation>EasyList - Настройки</translation>
+        <translation type="obsolete">EasyList - Настройки</translation>
     </message>
     <message>
         <source>Themes</source>
@@ -190,15 +235,15 @@ All your current items will be overwritten.</source>
     </message>
     <message>
         <source>Sort</source>
-        <translation>Сортировать</translation>
+        <translation type="obsolete">Сортировать</translation>
     </message>
     <message>
         <source>Alphabetically:</source>
-        <translation>По алфавиту:</translation>
+        <translation type="obsolete">По алфавиту:</translation>
     </message>
     <message>
         <source>Checked items to bottom:</source>
-        <translation>Отмеченные строчки в конец:</translation>
+        <translation type="obsolete">Отмеченные строчки в конец:</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -253,7 +298,7 @@ All your current items will be overwritten.</source>
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation>Когда вы настроите учетную запись вы сможете обновлять ваш список с сервера.
+        <translation type="obsolete">Когда вы настроите учетную запись вы сможете обновлять ваш список с сервера.
 
 Вы сможете создать Вашу учетную запись на сайте http://easylist.willemliu.nl.
 Адрес на сервере по умолчанию: http://easylist.willemliu.nl/getList.php</translation>
@@ -261,6 +306,17 @@ Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
     <message>
         <source>Ok</source>
         <translation>ОК</translation>
+    </message>
+    <message>
+        <source>EasyNote - Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your note with your online note.
+
+You can create your online account on http://easylist.willemliu.nl.
+Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

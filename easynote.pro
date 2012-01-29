@@ -48,5 +48,19 @@ OTHER_FILES += \
 RESOURCES += \
     resources.qrc
 
+TRANSLATIONS += \
+    qml/easylist/qml-translations.de.ts \
+    qml/easylist/qml-translations.en.ts \
+    qml/easylist/qml-translations.fi.ts \
+    qml/easylist/qml-translations.fr.ts \
+    qml/easylist/qml-translations.it.ts \
+    qml/easylist/qml-translations.nl.ts \
+    qml/easylist/qml-translations.tl.ts \
+    qml/easylist/qml-translations.ru.ts \
+    qml/easylist/qml-translations.tr.ts
+
+
+
+
 
 

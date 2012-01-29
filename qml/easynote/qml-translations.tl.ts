@@ -5,7 +5,8 @@
     <name>AboutPage</name>
     <message>
         <location filename="AboutPage.qml" line="32"/>
-        <source>EasyList - About</source>
+        <source>EasyNote - About</source>
+        <oldsource>EasyList - About</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -24,22 +25,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="AboutPage.qml" line="169"/>
+        <location filename="AboutPage.qml" line="124"/>
         <source>Drop tables?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="AboutPage.qml" line="170"/>
-        <source>Do you really want to remove all tables used by EasyList?</source>
+        <location filename="AboutPage.qml" line="125"/>
+        <source>Do you really want to remove all tables used by EasyNote?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="AboutPage.qml" line="171"/>
+        <location filename="AboutPage.qml" line="126"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="AboutPage.qml" line="172"/>
+        <location filename="AboutPage.qml" line="127"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -63,12 +64,16 @@
     </message>
     <message>
         <location filename="EditPage.qml" line="46"/>
-        <source>Enter text to create your list.
+        <source>Enter text to create your note.
+
+Tip: You can copy text from other apps
+and paste it here as well.</source>
+        <oldsource>Enter text to create your list.
 Each new line or comma delimits
 a new item.
 
 Tip: You can copy text from other apps
-and paste it here as well.</source>
+and paste it here as well.</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -76,65 +81,66 @@ and paste it here as well.</source>
     <name>ListsPage</name>
     <message>
         <location filename="ListsPage.qml" line="37"/>
-        <source>EasyList - Lists</source>
+        <source>EasyNote - Notes</source>
+        <oldsource>EasyList - Lists</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="130"/>
-        <location filename="ListsPage.qml" line="249"/>
+        <location filename="ListsPage.qml" line="129"/>
+        <location filename="ListsPage.qml" line="243"/>
         <source>Rename</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="138"/>
+        <location filename="ListsPage.qml" line="137"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="150"/>
+        <location filename="ListsPage.qml" line="149"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="157"/>
+        <location filename="ListsPage.qml" line="156"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="173"/>
+        <location filename="ListsPage.qml" line="172"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="174"/>
-        <location filename="ListsPage.qml" line="250"/>
-        <location filename="ListsPage.qml" line="395"/>
+        <location filename="ListsPage.qml" line="173"/>
+        <location filename="ListsPage.qml" line="244"/>
+        <location filename="ListsPage.qml" line="384"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="200"/>
-        <location filename="ListsPage.qml" line="276"/>
-        <source>New list name:</source>
+        <location filename="ListsPage.qml" line="195"/>
+        <location filename="ListsPage.qml" line="266"/>
+        <source>New note name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="392"/>
-        <source>Remove list?</source>
+        <location filename="ListsPage.qml" line="381"/>
+        <source>Remove note?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="393"/>
+        <location filename="ListsPage.qml" line="382"/>
+        <source>]?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="ListsPage.qml" line="382"/>
         <source>Do you really want to remove [</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="ListsPage.qml" line="393"/>
-        <source>] and all its items?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="ListsPage.qml" line="394"/>
+        <location filename="ListsPage.qml" line="383"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
@@ -142,77 +148,55 @@ and paste it here as well.</source>
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="MainPage.qml" line="126"/>
-        <source>Deselect all</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="MainPage.qml" line="135"/>
-        <source>Remove checked</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="MainPage.qml" line="141"/>
+        <location filename="MainPage.qml" line="110"/>
         <source>Synchronise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainPage.qml" line="147"/>
+        <location filename="MainPage.qml" line="117"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainPage.qml" line="154"/>
+        <location filename="MainPage.qml" line="124"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainPage.qml" line="167"/>
-        <source>Remove checked items?</source>
+        <location filename="MainPage.qml" line="147"/>
+        <source>Sync with online note?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainPage.qml" line="168"/>
-        <source>Do you really want to remove all checked items?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="MainPage.qml" line="169"/>
-        <location filename="MainPage.qml" line="180"/>
-        <location filename="MainPage.qml" line="191"/>
-        <source>Ok</source>
+        <location filename="MainPage.qml" line="148"/>
+        <source>Do you really want sync your current note with the online note?
+
+Your current note will be overwritten.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="MainPage.qml" line="170"/>
-        <location filename="MainPage.qml" line="181"/>
+        <source>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="MainPage.qml" line="149"/>
+        <location filename="MainPage.qml" line="171"/>
+        <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="MainPage.qml" line="150"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainPage.qml" line="178"/>
-        <source>Sync with online list?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="MainPage.qml" line="179"/>
-        <source>Do you really want sync your current list with the online list?
-
-All your current items will be overwritten.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="MainPage.qml" line="189"/>
+        <location filename="MainPage.qml" line="169"/>
         <source>Can&apos;t synchronize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainPage.qml" line="190"/>
-        <source>Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="MainPage.qml" line="317"/>
+        <location filename="MainPage.qml" line="309"/>
         <source>Remove</source>
         <translation type="unfinished"></translation>
     </message>
@@ -221,7 +205,8 @@ All your current items will be overwritten.</source>
     <name>SettingsPage</name>
     <message>
         <location filename="SettingsPage.qml" line="50"/>
-        <source>EasyList - Settings</source>
+        <source>EasyNote - Settings</source>
+        <oldsource>EasyList - Settings</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,89 +216,74 @@ All your current items will be overwritten.</source>
     </message>
     <message>
         <location filename="SettingsPage.qml" line="132"/>
-        <source>Sort</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="SettingsPage.qml" line="143"/>
-        <source>Alphabetically:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="SettingsPage.qml" line="165"/>
-        <source>Checked items to bottom:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="SettingsPage.qml" line="195"/>
         <source>Orientation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="214"/>
+        <location filename="SettingsPage.qml" line="150"/>
         <source>Portrait</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="235"/>
+        <location filename="SettingsPage.qml" line="171"/>
         <source>Landscape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="256"/>
+        <location filename="SettingsPage.qml" line="192"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="290"/>
+        <location filename="SettingsPage.qml" line="226"/>
         <source>Theme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="307"/>
+        <location filename="SettingsPage.qml" line="243"/>
         <source>Select Theme...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="325"/>
+        <location filename="SettingsPage.qml" line="261"/>
         <source>Synchronise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="336"/>
+        <location filename="SettingsPage.qml" line="272"/>
         <source>Source:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="359"/>
+        <location filename="SettingsPage.qml" line="295"/>
         <source>Username:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="382"/>
+        <location filename="SettingsPage.qml" line="318"/>
         <source>Password:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="404"/>
+        <location filename="SettingsPage.qml" line="340"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="424"/>
+        <location filename="SettingsPage.qml" line="360"/>
         <source>Synchronization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="425"/>
-        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your list with your online list.
+        <location filename="SettingsPage.qml" line="361"/>
+        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your note with your online note.
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SettingsPage.qml" line="426"/>
+        <location filename="SettingsPage.qml" line="362"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>

@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>EasyList - About</source>
-        <translation>EasyList - Über</translation>
+        <translation type="obsolete">EasyList - Über</translation>
     </message>
     <message>
         <source>Created with Qt</source>
@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>Do you really want to remove all tables used by EasyList?</source>
-        <translation>Wollen Sie wirklich alle Listen, die von EasyList verwendet werden, entfernen?</translation>
+        <translation type="obsolete">Wollen Sie wirklich alle Listen, die von EasyList verwendet werden, entfernen?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -34,6 +34,14 @@
     <message>
         <source>Thanks to:</source>
         <translation>Vielen Dank an:</translation>
+    </message>
+    <message>
+        <source>EasyNote - About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to remove all tables used by EasyNote?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -57,19 +65,26 @@ a new item.
 
 Tip: You can copy text from other apps
 and paste it here as well.</source>
-        <translation>Geben sie den Text für ihre Liste ein.
+        <translation type="obsolete">Geben sie den Text für ihre Liste ein.
 Jede neue Zeile oder Komma erzeugt
 ein neues Element.
 
 Tipp: Sie können Text aus anderen An-
 wendungen kopieren und hier einfügen.</translation>
     </message>
+    <message>
+        <source>Enter text to create your note.
+
+Tip: You can copy text from other apps
+and paste it here as well.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ListsPage</name>
     <message>
         <source>EasyList - Lists</source>
-        <translation>EasyList - Listen</translation>
+        <translation type="obsolete">EasyList - Listen</translation>
     </message>
     <message>
         <source>Rename</source>
@@ -97,11 +112,11 @@ wendungen kopieren und hier einfügen.</translation>
     </message>
     <message>
         <source>New list name:</source>
-        <translation>Name der neuen Liste:</translation>
+        <translation type="obsolete">Name der neuen Liste:</translation>
     </message>
     <message>
         <source>Remove list?</source>
-        <translation>Liste entfernen?</translation>
+        <translation type="obsolete">Liste entfernen?</translation>
     </message>
     <message>
         <source>Do you really want to remove [</source>
@@ -109,22 +124,38 @@ wendungen kopieren und hier einfügen.</translation>
     </message>
     <message>
         <source>] and all its items?</source>
-        <translation>] und alle ihre Elemente entfernen?</translation>
+        <translation type="obsolete">] und alle ihre Elemente entfernen?</translation>
     </message>
     <message>
         <source>Ok</source>
         <translation>Ok</translation>
+    </message>
+    <message>
+        <source>EasyNote - Notes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New note name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove note?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>]?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Deselect all</source>
-        <translation>Markierungen entfernen</translation>
+        <translation type="obsolete">Markierungen entfernen</translation>
     </message>
     <message>
         <source>Remove checked</source>
-        <translation>Markierte Elemente löschen</translation>
+        <translation type="obsolete">Markierte Elemente löschen</translation>
     </message>
     <message>
         <source>Synchronise</source>
@@ -140,11 +171,11 @@ wendungen kopieren und hier einfügen.</translation>
     </message>
     <message>
         <source>Remove checked items?</source>
-        <translation>Markierte Elemente löschen?</translation>
+        <translation type="obsolete">Markierte Elemente löschen?</translation>
     </message>
     <message>
         <source>Do you really want to remove all checked items?</source>
-        <translation>Wollen Sie wirklich alle markierten Elemente entfernen?</translation>
+        <translation type="obsolete">Wollen Sie wirklich alle markierten Elemente entfernen?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -156,13 +187,13 @@ wendungen kopieren und hier einfügen.</translation>
     </message>
     <message>
         <source>Sync with online list?</source>
-        <translation>Sync mit Online-Liste?</translation>
+        <translation type="obsolete">Sync mit Online-Liste?</translation>
     </message>
     <message>
         <source>Do you really want sync your current list with the online list?
 
 All your current items will be overwritten.</source>
-        <translation>Wollen sie wirklich ihre aktuelle Liste mit der Online-Liste synchronisieren?
+        <translation type="obsolete">Wollen sie wirklich ihre aktuelle Liste mit der Online-Liste synchronisieren?
 
 Alle aktuellen Elemente werden überschrieben.</translation>
     </message>
@@ -172,18 +203,32 @@ Alle aktuellen Elemente werden überschrieben.</translation>
     </message>
     <message>
         <source>Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation>Kann nicht mit Online-Liste  synchronisieren. Bitte überprüfen sie die Daten ihres Sync-Konto in den Einstellungen.</translation>
+        <translation type="obsolete">Kann nicht mit Online-Liste  synchronisieren. Bitte überprüfen sie die Daten ihres Sync-Konto in den Einstellungen.</translation>
     </message>
     <message>
         <source>Remove</source>
         <translation>Entfernen</translation>
+    </message>
+    <message>
+        <source>Sync with online note?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want sync your current note with the online note?
+
+Your current note will be overwritten.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>EasyList - Settings</source>
-        <translation>EasyList - Einstellungen</translation>
+        <translation type="obsolete">EasyList - Einstellungen</translation>
     </message>
     <message>
         <source>Themes</source>
@@ -191,15 +236,15 @@ Alle aktuellen Elemente werden überschrieben.</translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation>Sortierung</translation>
+        <translation type="obsolete">Sortierung</translation>
     </message>
     <message>
         <source>Alphabetically:</source>
-        <translation>Alphabetisch sortieren:</translation>
+        <translation type="obsolete">Alphabetisch sortieren:</translation>
     </message>
     <message>
         <source>Checked items to bottom:</source>
-        <translation>Markiertes nach unten verrücken:</translation>
+        <translation type="obsolete">Markiertes nach unten verrücken:</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -254,7 +299,7 @@ Alle aktuellen Elemente werden überschrieben.</translation>
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation>Wenn sie ein synchronisations Konto einrichten, können sie ihre lokale Liste mit ihrer Online-Liste abgleichen.
+        <translation type="obsolete">Wenn sie ein synchronisations Konto einrichten, können sie ihre lokale Liste mit ihrer Online-Liste abgleichen.
 
 Sie können Ihr Online-Konto auf http://easylist.willemliu.nl einrichten.
 Die standard Sync-URL lautet: http://easylist.willemliu.nl/getList.php</translation>
@@ -262,6 +307,17 @@ Die standard Sync-URL lautet: http://easylist.willemliu.nl/getList.php</translat
     <message>
         <source>Ok</source>
         <translation>Ok</translation>
+    </message>
+    <message>
+        <source>EasyNote - Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your note with your online note.
+
+You can create your online account on http://easylist.willemliu.nl.
+Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

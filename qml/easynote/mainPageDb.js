@@ -18,6 +18,7 @@ function loadDB(theListName)
     db = getDbConnection();
     db.transaction(function(tx) {
         tx.executeSql('CREATE TABLE IF NOT EXISTS EasyListData(pid INTEGER PRIMARY KEY, listName STRING, itemText STRING, selected BOOLEAN)');
+        tx.executeSql('CREATE TABLE IF NOT EXISTS EasyListListsLastModified(pid INTEGER PRIMARY KEY, listName STRING UNIQUE, lastModified INTEGER)');
         resultSet = tx.executeSql(getOrderBy(selectSql), [listName]);
     });
 

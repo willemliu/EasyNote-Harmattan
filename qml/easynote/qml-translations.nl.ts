@@ -5,7 +5,7 @@
     <name>AboutPage</name>
     <message>
         <source>EasyList - About</source>
-        <translation>EasyList - Over</translation>
+        <translation type="obsolete">EasyList - Over</translation>
     </message>
     <message>
         <source>Created with Qt</source>
@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>Do you really want to remove all tables used by EasyList?</source>
-        <translation>Wilt u echt alle tabellen verwijderen die door EasyList wordt gebruikt?</translation>
+        <translation type="obsolete">Wilt u echt alle tabellen verwijderen die door EasyList wordt gebruikt?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -34,6 +34,14 @@
     <message>
         <source>Thanks to:</source>
         <translation>Dank aan:</translation>
+    </message>
+    <message>
+        <source>EasyNote - About</source>
+        <translation>EasyNote - Over</translation>
+    </message>
+    <message>
+        <source>Do you really want to remove all tables used by EasyNote?</source>
+        <translation>Wilt u alle tabellen van EasyNote verwijderen?</translation>
     </message>
 </context>
 <context>
@@ -57,19 +65,29 @@ a new item.
 
 Tip: You can copy text from other apps
 and paste it here as well.</source>
-        <translation>Voer tekst in om uw lijst te maken.
+        <translation type="obsolete">Voer tekst in om uw lijst te maken.
 Elke nieuwe regel of komma begrenst
 een nieuw item.
 
 Tip: U kunt tekst kopiëren uit andere apps
 en hier plakken.</translation>
     </message>
+    <message>
+        <source>Enter text to create your note.
+
+Tip: You can copy text from other apps
+and paste it here as well.</source>
+        <translation>Voer tekst in om uw notitie te creëren.
+
+Tip: Je kan ook tekst uit andere
+applicaties kopieren en hier plakken.</translation>
+    </message>
 </context>
 <context>
     <name>ListsPage</name>
     <message>
         <source>EasyList - Lists</source>
-        <translation>EasyList - Lijsten</translation>
+        <translation type="obsolete">EasyList - Lijsten</translation>
     </message>
     <message>
         <source>Rename</source>
@@ -97,11 +115,11 @@ en hier plakken.</translation>
     </message>
     <message>
         <source>New list name:</source>
-        <translation>Nieuwe lijstnaam:</translation>
+        <translation type="obsolete">Nieuwe lijstnaam:</translation>
     </message>
     <message>
         <source>Remove list?</source>
-        <translation>Lijst verwijderen?</translation>
+        <translation type="obsolete">Lijst verwijderen?</translation>
     </message>
     <message>
         <source>Do you really want to remove [</source>
@@ -109,22 +127,38 @@ en hier plakken.</translation>
     </message>
     <message>
         <source>] and all its items?</source>
-        <translation>] en alle items ervan verwijderen?</translation>
+        <translation type="obsolete">] en alle items ervan verwijderen?</translation>
     </message>
     <message>
         <source>Ok</source>
         <translation>Ok</translation>
+    </message>
+    <message>
+        <source>EasyNote - Notes</source>
+        <translation>EasyNote - Notities</translation>
+    </message>
+    <message>
+        <source>New note name:</source>
+        <translation>Nieuwe notitie naam:</translation>
+    </message>
+    <message>
+        <source>Remove note?</source>
+        <translation>Notitie verwijderen?</translation>
+    </message>
+    <message>
+        <source>]?</source>
+        <translation>]?</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
         <source>Deselect all</source>
-        <translation>Deselecteer alles</translation>
+        <translation type="obsolete">Deselecteer alles</translation>
     </message>
     <message>
         <source>Remove checked</source>
-        <translation>Verwijder geselecteerde</translation>
+        <translation type="obsolete">Verwijder geselecteerde</translation>
     </message>
     <message>
         <source>Synchronise</source>
@@ -140,11 +174,11 @@ en hier plakken.</translation>
     </message>
     <message>
         <source>Remove checked items?</source>
-        <translation>Verwijder aangevinkte items?</translation>
+        <translation type="obsolete">Verwijder aangevinkte items?</translation>
     </message>
     <message>
         <source>Do you really want to remove all checked items?</source>
-        <translation>Wil je echt alle aangevinkte items verwijderen?</translation>
+        <translation type="obsolete">Wil je echt alle aangevinkte items verwijderen?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -156,13 +190,13 @@ en hier plakken.</translation>
     </message>
     <message>
         <source>Sync with online list?</source>
-        <translation>Synchroniseer met online lijst?</translation>
+        <translation type="obsolete">Synchroniseer met online lijst?</translation>
     </message>
     <message>
         <source>Do you really want sync your current list with the online list?
 
 All your current items will be overwritten.</source>
-        <translation>Wilt u echt uw huidige lijst synchroniseren met de online lijst?
+        <translation type="obsolete">Wilt u echt uw huidige lijst synchroniseren met de online lijst?
 
 Al uw huidige items zullen worden overschreven.</translation>
     </message>
@@ -172,18 +206,37 @@ Al uw huidige items zullen worden overschreven.</translation>
     </message>
     <message>
         <source>Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation>Kan niet synchroniseren met online lijst. Zorg ervoor dat u uw synchronisatie-account correct hebt ingesteld in de instellingen.</translation>
+        <translation type="obsolete">Kan niet synchroniseren met online lijst. Zorg ervoor dat u uw synchronisatie-account correct hebt ingesteld in de instellingen.</translation>
     </message>
     <message>
         <source>Remove</source>
         <translation>Verwijderen</translation>
+    </message>
+    <message>
+        <source>Sync with online note?</source>
+        <translation>Synchroniseren met online notitie?</translation>
+    </message>
+    <message>
+        <source>Do you really want sync your current note with the online note?
+
+Your current note will be overwritten.</source>
+        <translation>Wilt u echt uw huidige lijsten synchroniseren met de online lijsten?
+
+Uw lijsten worden overschreven als:
+- De lijst nooit eerder is gesynchroniseerd.
+- Alleen lijsten met dezelfde namen als de online lijsten worden gesynchroniseerd.
+- De online lijst is gewijzigd sinds de vorige synchronisatie.</translation>
+    </message>
+    <message>
+        <source>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
+        <translation>Kan niet synchroniseren met online notitie. Zorg ervoor dat u uw synchronisatie-account correct hebt ingesteld in de instellingen.</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>EasyList - Settings</source>
-        <translation>EasyList - Instellingen</translation>
+        <translation type="obsolete">EasyList - Instellingen</translation>
     </message>
     <message>
         <source>Themes</source>
@@ -191,15 +244,15 @@ Al uw huidige items zullen worden overschreven.</translation>
     </message>
     <message>
         <source>Sort</source>
-        <translation>Sorteren</translation>
+        <translation type="obsolete">Sorteren</translation>
     </message>
     <message>
         <source>Alphabetically:</source>
-        <translation>Alfabetisch:</translation>
+        <translation type="obsolete">Alfabetisch:</translation>
     </message>
     <message>
         <source>Checked items to bottom:</source>
-        <translation>Aangevinkte items onderop:</translation>
+        <translation type="obsolete">Aangevinkte items onderop:</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -254,7 +307,7 @@ Al uw huidige items zullen worden overschreven.</translation>
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation>Wanneer u uw synchronisatie-account hebt ingesteld dan zul je in staat zijn om uw lijst te synchroniseren met uw online lijst.
+        <translation type="obsolete">Wanneer u uw synchronisatie-account hebt ingesteld dan zul je in staat zijn om uw lijst te synchroniseren met uw online lijst.
 
 U kunt uw online account op http://easylist.willemliu.nl creëren.
 Standaard sync URL is: http://easylist.willemliu.nl/getList.php</translation>
@@ -262,6 +315,20 @@ Standaard sync URL is: http://easylist.willemliu.nl/getList.php</translation>
     <message>
         <source>Ok</source>
         <translation>Ok</translation>
+    </message>
+    <message>
+        <source>EasyNote - Settings</source>
+        <translation>EasyNote - Instellingen</translation>
+    </message>
+    <message>
+        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your note with your online note.
+
+You can create your online account on http://easylist.willemliu.nl.
+Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
+        <translation>Wanneer u uw synchronisatie-account hebt ingesteld dan zul je in staat zijn om uw lijsten te synchroniseren met uw online lijsten.
+
+U kunt uw online account op http://easylist.willemliu.nl creëren.
+Standaard sync URL is: http://easylist.willemliu.nl/getList.php</translation>
     </message>
 </context>
 </TS>

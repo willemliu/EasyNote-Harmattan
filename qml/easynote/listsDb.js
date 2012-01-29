@@ -8,8 +8,7 @@ function removeList(listName)
 {
     db = getDbConnection();
     db.transaction(function(tx) {
-        tx.executeSql('CREATE TABLE IF NOT EXISTS EasyListData(pid INTEGER PRIMARY KEY, listName STRING, itemText STRING, selected BOOLEAN)');
-        tx.executeSql('CREATE TABLE IF NOT EXISTS EasyListLists(pid INTEGER PRIMARY KEY, listName STRING UNIQUE)');
+        tx.executeSql('DELETE FROM EasyListListsLastModified WHERE listName=(?)', [listName]);
         tx.executeSql('DELETE FROM EasyListData WHERE listName=(?)', [listName]);
         tx.executeSql('DELETE FROM EasyListLists WHERE listName=(?)', [listName]);
     });

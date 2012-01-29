@@ -1,3 +1,6 @@
 <RCC>
-    <qresource prefix="/"/>
+    <qresource prefix="/">
+        <file>qml/easynote/qml-translations.en.qm</file>
+        <file>qml/easynote/qml-translations.nl.qm</file>
+    </qresource>
 </RCC>
