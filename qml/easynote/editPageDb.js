@@ -192,6 +192,7 @@ function addList(listName)
 {
     db = getDbConnection();
     db.transaction(function(tx) {
+        tx.executeSql('CREATE TABLE IF NOT EXISTS EasyListLists(pid INTEGER PRIMARY KEY, listName STRING UNIQUE)');
         tx.executeSql("INSERT OR IGNORE INTO EasyListLists (listName) VALUES (?)", [listName]);
     });
 }
