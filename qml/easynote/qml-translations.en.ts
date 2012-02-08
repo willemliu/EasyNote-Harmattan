@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>EasyList - About</source>
-        <translation type="obsolete">EasyList - About</translation>
-    </message>
-    <message>
         <source>Created with Qt</source>
         <translation>Created with Qt</translation>
     </message>
@@ -18,10 +14,6 @@
     <message>
         <source>Drop tables?</source>
         <translation>Drop tables?</translation>
-    </message>
-    <message>
-        <source>Do you really want to remove all tables used by EasyList?</source>
-        <translation type="obsolete">Do you really want to remove all tables used by EasyList?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -59,20 +51,6 @@
         <translation>Paste</translation>
     </message>
     <message>
-        <source>Enter text to create your list.
-Each new line or comma delimits
-a new item.
-
-Tip: You can copy text from other apps
-and paste it here as well.</source>
-        <translation type="obsolete">Enter text to create your list.
-Each new line or comma delimits
-a new item.
-
-Tip: You can copy text from other apps
-and paste it here as well.</translation>
-    </message>
-    <message>
         <source>Enter text to create your note.
 
 Tip: You can copy text from other apps
@@ -85,10 +63,6 @@ and paste it here as well.</translation>
 </context>
 <context>
     <name>ListsPage</name>
-    <message>
-        <source>EasyList - Lists</source>
-        <translation type="obsolete">EasyList - Lists</translation>
-    </message>
     <message>
         <source>Rename</source>
         <translation>Rename</translation>
@@ -114,20 +88,8 @@ and paste it here as well.</translation>
         <translation>Cancel</translation>
     </message>
     <message>
-        <source>New list name:</source>
-        <translation type="obsolete">New list name:</translation>
-    </message>
-    <message>
-        <source>Remove list?</source>
-        <translation type="obsolete">Remove list?</translation>
-    </message>
-    <message>
         <source>Do you really want to remove [</source>
         <translation>Do you really want to remove [</translation>
-    </message>
-    <message>
-        <source>] and all its items?</source>
-        <translation type="obsolete">] and all its items?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -153,14 +115,6 @@ and paste it here as well.</translation>
 <context>
     <name>MainPage</name>
     <message>
-        <source>Deselect all</source>
-        <translation type="obsolete">Deselect all</translation>
-    </message>
-    <message>
-        <source>Remove checked</source>
-        <translation type="obsolete">Remove checked</translation>
-    </message>
-    <message>
         <source>Synchronise</source>
         <translation>Synchronise</translation>
     </message>
@@ -173,14 +127,6 @@ and paste it here as well.</translation>
         <translation>About</translation>
     </message>
     <message>
-        <source>Remove checked items?</source>
-        <translation type="obsolete">Remove checked items?</translation>
-    </message>
-    <message>
-        <source>Do you really want to remove all checked items?</source>
-        <translation type="obsolete">Do you really want to remove all checked items?</translation>
-    </message>
-    <message>
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
@@ -189,24 +135,8 @@ and paste it here as well.</translation>
         <translation>Cancel</translation>
     </message>
     <message>
-        <source>Sync with online list?</source>
-        <translation type="obsolete">Sync with online list?</translation>
-    </message>
-    <message>
-        <source>Do you really want sync your current list with the online list?
-
-All your current items will be overwritten.</source>
-        <translation type="obsolete">Do you really want sync your current list with the online list?
-
-All your current items will be overwritten.</translation>
-    </message>
-    <message>
         <source>Can&apos;t synchronize</source>
         <translation>Can&apos;t synchronize</translation>
-    </message>
-    <message>
-        <source>Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation type="obsolete">Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -214,45 +144,29 @@ All your current items will be overwritten.</translation>
     </message>
     <message>
         <source>Sync with online note?</source>
-        <translation>Sync with online note?</translation>
+        <translation>Sync with online notes?</translation>
     </message>
     <message>
         <source>Do you really want sync your current note with the online note?
 
 Your current note will be overwritten.</source>
-        <translation>Do you really want sync your current lists with the online lists?
+        <translation>Do you really want sync your current notes with the online notes?
 
-Your lists will be overwritten if:
-- The list is never synced before.
-- Only lists with the same name are synced.
-- The online list has changed since the last sync.</translation>
+Your notes will be overwritten if:
+- The note is never synced before.
+- Only notes with the same name are synced.
+- The online note has changed since the last sync.</translation>
     </message>
     <message>
         <source>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</translation>
+        <translation>Unable to synchronize with online notes. Please make sure you&apos;ve correctly setup your sync account in settings.</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
-        <source>EasyList - Settings</source>
-        <translation type="obsolete">EasyList - Settings</translation>
-    </message>
-    <message>
         <source>Themes</source>
         <translation>Themes</translation>
-    </message>
-    <message>
-        <source>Sort</source>
-        <translation type="obsolete">Sort</translation>
-    </message>
-    <message>
-        <source>Alphabetically:</source>
-        <translation type="obsolete">Alphabetically:</translation>
-    </message>
-    <message>
-        <source>Checked items to bottom:</source>
-        <translation type="obsolete">Checked items to bottom:</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -303,16 +217,6 @@ Your lists will be overwritten if:
         <translation>Synchronisation</translation>
     </message>
     <message>
-        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your list with your online list.
-
-You can create your online account on http://easylist.willemliu.nl.
-Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation type="obsolete">When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your list with your online list.
-
-You can create your online account on http://easylist.willemliu.nl.
-Default sync URL is: http://easylist.willemliu.nl/getList.php</translation>
-    </message>
-    <message>
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
@@ -325,7 +229,7 @@ Default sync URL is: http://easylist.willemliu.nl/getList.php</translation>
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your list with your online list.
+        <translation>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your notes with your online notes.
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</translation>

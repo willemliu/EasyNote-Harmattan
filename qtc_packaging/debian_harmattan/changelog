@@ -1,3 +1,9 @@
+easynote (0.0.4) unstable; urgency=low
+  * Added Swedish translation thanks to Jan-Eric Lindh.
+  * Deleting a note item will no longer cause a scroll to top.
+
+ -- Willem Liu <willem.liu@gmail.com>  tue, 08 feb 2012 21:41:52 +0100
+
 easynote (0.0.3) unstable; urgency=low
   * Added multiple online note synchronisation.
   * Added dutch language.

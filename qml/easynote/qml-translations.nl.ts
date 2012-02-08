@@ -4,10 +4,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>EasyList - About</source>
-        <translation type="obsolete">EasyList - Over</translation>
-    </message>
-    <message>
         <source>Created with Qt</source>
         <translation>Gemaakt met Qt</translation>
     </message>
@@ -18,10 +14,6 @@
     <message>
         <source>Drop tables?</source>
         <translation>Tabellen verwijderen?</translation>
-    </message>
-    <message>
-        <source>Do you really want to remove all tables used by EasyList?</source>
-        <translation type="obsolete">Wilt u echt alle tabellen verwijderen die door EasyList wordt gebruikt?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -59,20 +51,6 @@
         <translation>Plakken</translation>
     </message>
     <message>
-        <source>Enter text to create your list.
-Each new line or comma delimits
-a new item.
-
-Tip: You can copy text from other apps
-and paste it here as well.</source>
-        <translation type="obsolete">Voer tekst in om uw lijst te maken.
-Elke nieuwe regel of komma begrenst
-een nieuw item.
-
-Tip: U kunt tekst kopiëren uit andere apps
-en hier plakken.</translation>
-    </message>
-    <message>
         <source>Enter text to create your note.
 
 Tip: You can copy text from other apps
@@ -85,10 +63,6 @@ applicaties kopieren en hier plakken.</translation>
 </context>
 <context>
     <name>ListsPage</name>
-    <message>
-        <source>EasyList - Lists</source>
-        <translation type="obsolete">EasyList - Lijsten</translation>
-    </message>
     <message>
         <source>Rename</source>
         <translation>Naam wijzigen</translation>
@@ -114,20 +88,8 @@ applicaties kopieren en hier plakken.</translation>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <source>New list name:</source>
-        <translation type="obsolete">Nieuwe lijstnaam:</translation>
-    </message>
-    <message>
-        <source>Remove list?</source>
-        <translation type="obsolete">Lijst verwijderen?</translation>
-    </message>
-    <message>
         <source>Do you really want to remove [</source>
         <translation>Wilt u echt [</translation>
-    </message>
-    <message>
-        <source>] and all its items?</source>
-        <translation type="obsolete">] en alle items ervan verwijderen?</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -153,14 +115,6 @@ applicaties kopieren en hier plakken.</translation>
 <context>
     <name>MainPage</name>
     <message>
-        <source>Deselect all</source>
-        <translation type="obsolete">Deselecteer alles</translation>
-    </message>
-    <message>
-        <source>Remove checked</source>
-        <translation type="obsolete">Verwijder geselecteerde</translation>
-    </message>
-    <message>
         <source>Synchronise</source>
         <translation>Synchroniseren</translation>
     </message>
@@ -173,14 +127,6 @@ applicaties kopieren en hier plakken.</translation>
         <translation>Over</translation>
     </message>
     <message>
-        <source>Remove checked items?</source>
-        <translation type="obsolete">Verwijder aangevinkte items?</translation>
-    </message>
-    <message>
-        <source>Do you really want to remove all checked items?</source>
-        <translation type="obsolete">Wil je echt alle aangevinkte items verwijderen?</translation>
-    </message>
-    <message>
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
@@ -189,24 +135,8 @@ applicaties kopieren en hier plakken.</translation>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <source>Sync with online list?</source>
-        <translation type="obsolete">Synchroniseer met online lijst?</translation>
-    </message>
-    <message>
-        <source>Do you really want sync your current list with the online list?
-
-All your current items will be overwritten.</source>
-        <translation type="obsolete">Wilt u echt uw huidige lijst synchroniseren met de online lijst?
-
-Al uw huidige items zullen worden overschreven.</translation>
-    </message>
-    <message>
         <source>Can&apos;t synchronize</source>
         <translation>Kan niet synchroniseren</translation>
-    </message>
-    <message>
-        <source>Unable to synchronize with online list. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation type="obsolete">Kan niet synchroniseren met online lijst. Zorg ervoor dat u uw synchronisatie-account correct hebt ingesteld in de instellingen.</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -214,45 +144,29 @@ Al uw huidige items zullen worden overschreven.</translation>
     </message>
     <message>
         <source>Sync with online note?</source>
-        <translation>Synchroniseren met online notitie?</translation>
+        <translation>Synchroniseren met online notities?</translation>
     </message>
     <message>
         <source>Do you really want sync your current note with the online note?
 
 Your current note will be overwritten.</source>
-        <translation>Wilt u echt uw huidige lijsten synchroniseren met de online lijsten?
+        <translation>Wilt u echt uw huidige notitie synchroniseren met de online notities?
 
-Uw lijsten worden overschreven als:
-- De lijst nooit eerder is gesynchroniseerd.
-- Alleen lijsten met dezelfde namen als de online lijsten worden gesynchroniseerd.
-- De online lijst is gewijzigd sinds de vorige synchronisatie.</translation>
+Uw notities worden overschreven als:
+- De notitie nooit eerder is gesynchroniseerd.
+- Alleen notities met dezelfde namen als de online notities worden gesynchroniseerd.
+- De online notitie is gewijzigd sinds de vorige synchronisatie.</translation>
     </message>
     <message>
         <source>Unable to synchronize with online note. Please make sure you&apos;ve correctly setup your sync account in settings.</source>
-        <translation>Kan niet synchroniseren met online notitie. Zorg ervoor dat u uw synchronisatie-account correct hebt ingesteld in de instellingen.</translation>
+        <translation>Kan niet synchroniseren met online notities. Zorg ervoor dat u uw synchronisatie-account correct hebt ingesteld in de instellingen.</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
-        <source>EasyList - Settings</source>
-        <translation type="obsolete">EasyList - Instellingen</translation>
-    </message>
-    <message>
         <source>Themes</source>
         <translation>Thema&apos;s</translation>
-    </message>
-    <message>
-        <source>Sort</source>
-        <translation type="obsolete">Sorteren</translation>
-    </message>
-    <message>
-        <source>Alphabetically:</source>
-        <translation type="obsolete">Alfabetisch:</translation>
-    </message>
-    <message>
-        <source>Checked items to bottom:</source>
-        <translation type="obsolete">Aangevinkte items onderop:</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -303,16 +217,6 @@ Uw lijsten worden overschreven als:
         <translation>Synchronisatie</translation>
     </message>
     <message>
-        <source>When you&apos;ve setup your synchronization account then you&apos;ll be able to synchronize your list with your online list.
-
-You can create your online account on http://easylist.willemliu.nl.
-Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation type="obsolete">Wanneer u uw synchronisatie-account hebt ingesteld dan zul je in staat zijn om uw lijst te synchroniseren met uw online lijst.
-
-U kunt uw online account op http://easylist.willemliu.nl creëren.
-Standaard sync URL is: http://easylist.willemliu.nl/getList.php</translation>
-    </message>
-    <message>
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
@@ -325,7 +229,7 @@ Standaard sync URL is: http://easylist.willemliu.nl/getList.php</translation>
 
 You can create your online account on http://easylist.willemliu.nl.
 Default sync URL is: http://easylist.willemliu.nl/getList.php</source>
-        <translation>Wanneer u uw synchronisatie-account hebt ingesteld dan zul je in staat zijn om uw lijsten te synchroniseren met uw online lijsten.
+        <translation>Wanneer u uw synchronisatie-account hebt ingesteld dan zul je in staat zijn om uw notitie te synchroniseren met uw online notitie.
 
 U kunt uw online account op http://easylist.willemliu.nl creëren.
 Standaard sync URL is: http://easylist.willemliu.nl/getList.php</translation>

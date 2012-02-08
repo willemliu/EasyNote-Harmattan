@@ -9,7 +9,7 @@ Page {
     property color headerTextColor: SettingsDb.getValue("HEADER_TEXT_COLOR")
     property color textColor: SettingsDb.getValue("TEXT_COLOR")
     orientationLock: SettingsDb.getOrientationLock();
-    property string version: "0.0.3";
+    property string version: "0.0.4";
 
     Rectangle {
         id: background
@@ -113,6 +113,15 @@ Page {
                     font.family: "Helvetica"
                     font.pointSize: 24
                     text: "Stanislav"
+                    color: textColor
+                }
+                Text {
+                    id: text7
+                    anchors.top: text6.bottom
+                    anchors.horizontalCenter: text6.horizontalCenter
+                    font.family: "Helvetica"
+                    font.pointSize: 24
+                    text: "Jan-Eric Lindh"
                     color: textColor
                 }
             }

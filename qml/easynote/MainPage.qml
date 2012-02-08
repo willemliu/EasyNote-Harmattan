@@ -17,6 +17,7 @@ Page {
     signal hideToolbar(bool hideToolbar)
     property int index: -1
     property int modelIndex: -1
+    property int scrollTo: 0
 
     Loader {
         id: aboutPageLoader
@@ -266,6 +267,7 @@ Page {
                         height: parent.height
                         width: listView.width
                         onPressAndHold: {
+                            scrollTo = listView.contentY;
                             mainPage.index = listItem.itemIndex;
                             contextMenu.open();
                             listItem.backgroundColor = DbConnection.getValue("LIST_ITEM_BACKGROUND_COLOR");
@@ -310,6 +312,7 @@ Page {
                 onClicked: {
                     DbConnection.removeRecord(mainPage.index);
                     mainPage.reloadDb();
+                    listView.contentY = scrollTo;
                 }
             }
         }
@@ -340,6 +343,7 @@ Page {
         }
         DbConnection.populateModel();
         updateButtonStatus();
+        listView.contentY = scrollTo;
     }
 
     function loadTheme()
